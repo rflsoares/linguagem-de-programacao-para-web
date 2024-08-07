@@ -1,59 +1,87 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="UTF-8"> 
-        <title>Trabalho - Tabelas</title>
-    </head>
-    <body>
-        <h1>Curso de Produção de Computadores</h1>
-        <table>
-            <tr>
-                <th colspan="2">Horário</th>
-                <th>Segunda</th>
-                <th>Terça</th>
-                <th>Quarta</th>
-                <th>Quinta</th>
-                <th>Sexta</th>
-            </tr>
-            <tr>
-                <td>08:00h - 08:50h</td>
-                <td colspan="2">Produção de Telas</td>
-                <td>Organização de Teclas e Botões</td>
-                <td>Desenvolvimento de Placas e Peças Avançadas</td>
-                <td>Cultura na Web</td>
-            </tr>
-            <tr>
-                <td>08:50h - 09:40h</td>
-                <td>Produção de Telas</td>
-                <td>Coloração de Peças e Partes</td>
-                <td>Organização de Teclas e Botões</td>
-                <td>Desenvolvimento de Placas e Peças Avançadas</td>
-                <td>Cultura na Web</td>
-            </tr>
-            <tr>
-                <td>09:40h - 10:00h</td>
-                <td>Intervalo</td>
-                <td>Intervalo</td>
-                <td>Intervalo</td>
-                <td>Intervalo</td>
-                <td>Intervalo</td>
-            </tr>
-            <tr>
-                <td>10:00h - 10:50h</td>
-                <td>Organização de Teclas e Botões</td>
-                <td>Produção de Telas</td>
-                <td>Coloração de Peças e Partes</td>
-                <td>Processos e Seguros</td>
-                <td>Cultura na Web</td>
-            </tr>
-            <tr>
-                <td>10:50h - 11:40h</td>
-                <td>Organização de Teclas e Botões</td>
-                <td>Produção de Telas</td>
-                <td>Coloração de Peças e Partes</td>
-                <td>Processos e Seguros</td>
-                <td>Cultura na Web</td>
-            </tr>
-        </table>
-    </body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho - Tabelas</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Horário Semanal de Aulas de Produção de Computadores</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Horário</th>
+            <th>Segunda-feira</th>
+            <th>Terça-feira</th>
+            <th>Quarta-feira</th>
+            <th>Quinta-feira</th>
+            <th>Sexta-feira</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>8h-9h</td>
+            <td colspan="2">Produção de Telas</td>
+            <td>Coloração de Peças e Partes</td>
+            <td colspan="2">Organização de Teclas e Botões</td>
+        </tr>
+        <tr>
+            <td>9h-10h</td>
+            <td>Função de Hardwares</td>
+            <td>Admnistração de Indústria</td>
+            <td colspan="3">Produção de Telas</td>
+        </tr>
+        <tr>
+            <td>10h-11h</td>
+            <td>Coloração de Peças e Partes</td>
+            <td colspan="2">Função de Hardwares</td>
+            <td>Produção de Telas</td>
+            <td>Organização de Teclas e Botões</td>
+        </tr>
+        <tr>
+            <td>11h-12h</td>
+            <td colspan="3">Admnistração de Indústria</td>
+            <td>Função de Hardwares</td>
+            <td>Coloração de Peças e Partes</td>
+        </tr>
+        <tr>
+            <td>13h-14h</td>
+            <td colspan="2">Organização de Teclas e Botões</td>
+            <td>Admnistração de Indústria</td>
+            <td>Coloração de Peças e Partes</td>
+            <td>Produção de Telas</td>
+        </tr>
+        <tr>
+            <td>14h-15h</td>
+            <td>Função de Hardwares</td>
+            <td colspan="2">Admnistração de Indústria</td>
+            <td colspan="2">Coloração de Peças e Partes</td>
+        </tr>
+        <tr>
+            <td>15h-16h</td>
+            <td>Coloração de Peças e Partes</td>
+            <td>Produção de Telas</td>
+            <td>Admnistração de Indústria</td>
+            <td colspan="2">Função de Hardwares</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
 </html>
